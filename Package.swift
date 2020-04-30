@@ -59,7 +59,7 @@ let package = Package(
             name: "AppAuthCoreTests",
             dependencies: ["AppAuthCore"],
             path: "UnitTests",
-            exclude: ["OIDSwiftTests.swift"]
+            exclude: ["OIDSwiftTests.swift", "OIDURLQueryComponentTestsIOS7.m"]
         ),
         .testTarget(
             name: "AppAuthCoreSwiftTests",
